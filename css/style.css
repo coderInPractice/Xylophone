@@ -1,0 +1,165 @@
+html {
+  font: 100%/1.5 "Roboto", Verdana, sans-serif;
+  color: #3d464d;
+  background-color: rgba(88, 85, 88, 0.096);
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+
+  overflow: hidden-x;
+
+  /* Centering in The Unknown */
+  text-align: center;
+}
+
+body{
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#heading{
+  color: #f35626;
+  background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: hue 60s infinite linear;
+  border-bottom: 1px solid gray;
+
+}
+
+#buttons{
+  width: fit-content;
+  height: fit-content;
+  line-height: fit-content;
+}
+/*RED BUTTON*/
+#btn1{
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#f40303,#be411a, #ff57f7, #f40303);
+  background-size: 400%;
+  border-radius: 30px;
+}
+
+/*PINK BUTTON*/
+#btn2{
+  width: 350px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#ff04d5,#ff8843, #ff9027, #ff04d5);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+
+/*ORANGE BUTTON*/
+#btn3{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#ffbc2c,#f0cf3c, #3bffad, #ffb006);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -40px;
+}
+
+/*YELLOW BUTTON*/
+#btn4{
+  width: 450px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,YELLOW,#e8f441, #a79a25, YELLOW);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -60px;
+}
+
+/*PURPLE BUTTON*/
+#btn5{
+  width: 500px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#b005ff,#d87df3, #3bc1ff, #b005ff);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -80px;
+}
+
+/*BLUE BUTTON*/
+#btn6{
+  width: 550px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#0011fd,#41bbf4, #b73bff, #0011fd);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -100px;
+}
+
+/*GREEN BUTTON*/
+#btn7{
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,GREEN,#83f441, #0bb954, GREEN);
+  background-size: 400%;
+  border-radius: 30px;
+  margin-left: -120px;
+}
+
+p:hover{
+  animation: animate 8s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%;
+    transform: matrix(1, 0, 0, 1, -24, -7.2);
+    transform: matrix(1, 0, 0, 1, -24, 7.2);
+  }
+
+  100%{
+    background-position: 400%;
+    transform: matrix(1, 0, 0, 1, 24, 7.2);
+  }
+}
+
+@keyframes hue{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+
+  100%{
+    filter: hue-rotate(-360deg);
+  }
+}
