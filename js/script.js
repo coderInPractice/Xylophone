@@ -7,13 +7,13 @@ var audio6 = new Audio ();
 var audio7 = new Audio ();
 
 
-audio1.src = 'note1.mp3';
-audio2.src = 'note2.mp3';
-audio3.src = 'note3.mp3';
-audio4.src = 'note4.mp3';
-audio5.src = 'note5.mp3';
-audio6.src = 'note6.mp3';
-audio7.src = 'note7.mp3';
+audio1.src = 'audio/note1.mp3';
+audio2.src = 'audio/note2.mp3';
+audio3.src = 'audio/note3.mp3';
+audio4.src = 'audio/note4.mp3';
+audio5.src = 'audio/note5.mp3';
+audio6.src = 'audio/note6.mp3';
+audio7.src = 'audio/note7.mp3';
 
 function playSound(soundfile) {
     audio1.play();
