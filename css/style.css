@@ -31,10 +31,12 @@ body{
   width: fit-content;
   height: fit-content;
   line-height: fit-content;
+  margin-top: 50px;
+  transform: rotate(-90deg);
 }
 /*RED BUTTON*/
 #btn1{
-  width: 300px;
+  width: 200px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -48,7 +50,7 @@ body{
 
 /*PINK BUTTON*/
 #btn2{
-  width: 350px;
+  width: 250px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -58,12 +60,11 @@ body{
   background: linear-gradient(90deg,#ff04d5,#ff8843, #ff9027, #ff04d5);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -20px;
 }
 
 /*ORANGE BUTTON*/
 #btn3{
-  width: 400px;
+  width: 300px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -73,12 +74,11 @@ body{
   background: linear-gradient(90deg,#ffbc2c,#f0cf3c, #3bffad, #ffb006);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -40px;
 }
 
 /*YELLOW BUTTON*/
 #btn4{
-  width: 450px;
+  width: 350px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -88,12 +88,11 @@ body{
   background: linear-gradient(90deg,YELLOW,#e8f441, #a79a25, YELLOW);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -60px;
 }
 
 /*PURPLE BUTTON*/
 #btn5{
-  width: 500px;
+  width: 400px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -103,12 +102,11 @@ body{
   background: linear-gradient(90deg,#b005ff,#d87df3, #3bc1ff, #b005ff);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -80px;
 }
 
 /*BLUE BUTTON*/
 #btn6{
-  width: 550px;
+  width: 450px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -118,12 +116,11 @@ body{
   background: linear-gradient(90deg,#0011fd,#41bbf4, #b73bff, #0011fd);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -100px;
 }
 
 /*GREEN BUTTON*/
 #btn7{
-  width: 600px;
+  width: 500px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -133,7 +130,6 @@ body{
   background: linear-gradient(90deg,GREEN,#83f441, #0bb954, GREEN);
   background-size: 400%;
   border-radius: 30px;
-  margin-left: -120px;
 }
 
 p:hover{
