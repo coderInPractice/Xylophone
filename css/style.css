@@ -133,7 +133,7 @@ body{
 }
 
 p:hover{
-  animation: animate 8s linear infinite;
+  animation: animate 2s linear infinite;
   cursor: pointer;
 }
 
